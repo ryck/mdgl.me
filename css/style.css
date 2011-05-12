@@ -173,9 +173,24 @@ a:hover { color: #036; }
 
 
 
+#navigation { list-style-type: none; height: 40px; padding: 0; margin: 0; }
+#navigation { list-style-type: none; height: 40px; padding: 0; margin: 0; }
+#navigation li { float: left; position: relative; padding: 0; line-height: 40px; background: #5a8078 url(nav-bg.png) repeat-x 0 0; }
+#navigation li:hover { background-position: 0 -40px; }
+#navigation li a { display: block; padding: 0 15px; color: #fff; text-decoration: none; }
+#navigation li a:hover { color: #a3f1d7; }
+#navigation li ul { opacity: 0; position: absolute; left: 0; width: 12em; background: #63867f; list-style-type: none; padding: 0; margin: 0; }
+#navigation li:hover ul { opacity: 1; }
+#navigation li ul li { float: none; position: static; height: 0; line-height: 0; background: none; }
+#navigation li:hover ul li { height: 30px; line-height: 30px; }
+#navigation li ul li a { background: #63867f; }
+#navigation li ul li a:hover { background: #5a8078; }
 
 
-
+#navigation li { -webkit-transition: all 0.2s; -moz-transition: all 0.2s;  }
+#navigation li a { -webkit-transition: all 0.5s; -moz-transition: all 0.2s; }
+#navigation li ul { -webkit-transition: all 1s; -moz-transition: all 0.2s; }
+#navigation li ul li { -webkit-transition: height 0.5s; -moz-transition: all 0.2s; }
 
 
 

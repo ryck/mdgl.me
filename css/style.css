@@ -179,15 +179,29 @@ body {
   color: #FFF;
 }
 
+#nav-container {
+
+  width: 960px;
+  margin: 0 auto;
+}
+
 #header-container {
   background: none repeat scroll 0 0 #007A99;
 }
 
-#header-content {
-  width: 960px;
-  margin: 0 auto;
-  color: #FFF;
+.hrbg1 {
+    background: url("../img/semi-logo.png") no-repeat scroll left top transparent;
 }
+
+.header-right {
+    float: right;
+    height: 108px;
+    position: relative;
+    text-indent: -99999px;
+    width: 120px;
+    z-index: 500;
+}
+
 
 #header-content figure {
   float:  left;

@@ -169,24 +169,18 @@ a:hover { color: #036; }
  */
  
 body {
-
+  background-color: #f6f6f6;
 }
 
-#main {
-  min-height: 500px;
-  margin: 1em auto;
-  width: 960px;
-  color: #FFF;
-}
-
-#nav-container {
-
-  width: 960px;
+.wrapper {
   margin: 0 auto;
+  width: 960px;
 }
-
-#header-container {
-  background: none repeat scroll 0 0 #007A99;
+header {
+    background-color: #007A99;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    height: 69px;
 }
 
 .hrbg1 {
@@ -195,39 +189,17 @@ body {
 
 .header-right {
     float: right;
-    height: 108px;
+    height: 128px;
     position: relative;
     text-indent: -99999px;
-    width: 120px;
+    width: 131px;
     z-index: 500;
-}
-
-
-#header-content figure {
-  float:  left;
-  -moz-transition: all 2s ease 0s;
-  -webkit-transition: all 2s ease 0s;
-}
-
-#logo {
-  
-}
-#info {
-  float: left;
-  padding: 1em; 
-  font-size: 1.3em;
-}
-#lang {
-  float: right;
-}
-
-#nav-container {
-  
 }
 #navigation { 
   list-style-type: none; 
   padding: 0; 
   margin: 0;
+  float: left;
 }
 
 #navigation li { 
@@ -262,60 +234,6 @@ body {
 #navigation li a { -webkit-transition: all 0.5s; -moz-transition: all 0.2s; }
 #navigation li ul { -webkit-transition: all 1s; -moz-transition: all 0.2s; }
 #navigation li ul li { -webkit-transition: height 0.5s; -moz-transition: all 0.2s; }
-
-#intro article {
-  background-color: #F4F4F4;
-  background-image: -moz-linear-gradient(#F4F4F4, #ECECEC);
-
-  -webkit-border-radius: 0.2em; 
-  -moz-border-radius: 0.2em; 
-  border-radius: 0.2em; 
-  border: 1px solid #DDDDDD;
-  box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2);    
-  padding: 1em 1em 1em 100px;
-  margin: 1em;
-  font-size: 1.3em;
-}
-
-#home-services article {
-  background-color: #F4F4F4;
-  background-image: -moz-linear-gradient(#F4F4F4, #ECECEC);
-
-  -webkit-border-radius: 0.2em; 
-  -moz-border-radius: 0.2em; 
-  border-radius: 0.2em; 
-  border: 1px solid #DDDDDD;
-  box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2);   
-    float: left;
-    font-size: 1.3em;
-    margin: 1em;
-    min-height: 100px;
-    padding: 1em 0.5em 1em 100px;
-    width: 35%;
-  
-}
-
-footer {
-   background:  #007A99;
-}
-
-footer section {
-  width: 960px;
-  margin: 0 auto;
-}
-
-footer aside {
-  background: url("../img/footer.png") no-repeat scroll center 0 #FFFFFF;
-  padding: 100px 0 0;
-  text-align: center;
-}
-section#sub {
-  
-}
-
-section#sub article {
-  
-}
 
 
 /**

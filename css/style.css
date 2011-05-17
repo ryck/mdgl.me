@@ -169,7 +169,7 @@ a:hover { color: #036; }
  */
  
 body {
-  background-color: #f6f6f6;
+  background-color: #eee;
 }
 
 .wrapper {
@@ -179,7 +179,6 @@ body {
 header {
     background-color: #007A99;
     border-bottom: 1px solid #FFFFFF;
-    border-top: 1px solid #FFFFFF;
     height: 69px;
 }
 

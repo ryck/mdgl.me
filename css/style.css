@@ -184,7 +184,17 @@ a:hover { color: #036; }
     font-style: normal;
 
 }
- 
+/**
+html, body, #main { height: 100%; }
+body > #main { height: auto; min-height: 100%; }
+footer {
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: 3em;
+ margin-top: -3em;
+}
+*//
 body {
   background-color: #eee;
   font-family: 'DroidSansRegular';
@@ -258,25 +268,50 @@ header {
 #navigation li ul li { -webkit-transition: height 0.5s; -moz-transition: all 0.2s; }
 
 #main {
-  min-height: 500px;
-  margin-top: 64px;
-}
-
-#welcome h1 {
+  margin: 64px auto;
+  text-shadow: 0 1px 0 #FFFFFF;
+  font-size: 20px;
   color: #333;
-  font-size: 33px;
-  font-weight: bold;
-  text-shadow: 0 1px 0 #FFFFFF;  
 }
 
-#welcome h2 {
+#welcome {
+
+}
+#main h1 {
+  color: #007A99;
+  font-size: 33px;
+  font-weight: bold; 
+}
+
+#main h2 {
     color: #007A99;
     display: block;
     font-size: 26px;
     font-weight: lighter;
     line-height: 30px;
 }
+#main h3 {
+  color: #007A99;
+}
+#services {
+  margin: 20px 0;
+}
 
+#services article {
+    box-shadow: 0 0 7px rgba(129, 126, 126, 0.2);
+    height: 125px;
+    margin: 5px 0;
+    padding: 10px;
+    width: 450px;
+}
+#audiovisual, #projects {
+  margin-left: 10px;
+  float: right;
+}
+#translation, #i18n {
+  margin-right: 10px;
+  float: left;
+}
 footer {
     background-color: #007A99;
     border-top: 1px solid #FFFFFF;

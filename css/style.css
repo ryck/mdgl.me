@@ -184,19 +184,9 @@ a:hover { color: #036; }
     font-style: normal;
 
 }
-/**
-html, body, #main { height: 100%; }
-body > #main { height: auto; min-height: 100%; }
-footer {
- clear: both;
- position: relative;
- z-index: 10;
- height: 3em;
- margin-top: -3em;
-}
-*//
+
 body {
-  background-color: #eee;
+  background-color: #f6f6f6;
   font-family: 'DroidSansRegular';
 }
 
@@ -275,7 +265,10 @@ header {
 }
 
 #welcome {
-
+    box-shadow: 0 0 7px rgba(129, 126, 126, 0.2);
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #FFFFFF;
 }
 #main h1 {
   color: #007A99;
@@ -303,6 +296,7 @@ header {
     margin: 5px 0;
     padding: 10px;
     width: 450px;
+    background-color: #FFFFFF;
 }
 #audiovisual, #projects {
   margin-left: 10px;
@@ -334,10 +328,19 @@ footer {
 
 #footer-content {
 
-    height: 69px;
-    display: block;  
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    padding: 10px;
 }
 
+#footer-content a  {
+  color: #FFF;
+}
+
+#footer-content a:hover, #footer-content a:visited  {
+  color: #001b22;
+}
 /**
  * Non-semantic helper classes: please define your styles before this section.
  */

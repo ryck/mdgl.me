@@ -259,27 +259,56 @@ header {
 
 #main {
   margin: 64px auto;
-  text-shadow: 0 1px 0 #FFFFFF;
-  font-size: 20px;
+  text-shadow: 0 1px 0 #f6f6f6;
+  font-size: 1.3em;
   color: #333;
 }
 
-#welcome {
+#welcome article {
     box-shadow: 0 0 7px rgba(129, 126, 126, 0.2);
-    margin: 5px 0;
-    padding: 10px;
+    margin: 10px 0;
+    padding: 15px;
     background-color: #FFFFFF;
+    height: 75px;
+}
+
+#slogan {
+  float: left;
+  width: 580px;
+}
+#combinations {
+  width: 300px;
+  float: right;
+}
+
+#combinations table {
+  width: 100%;
+}
+#combinations table td {
+  line-height: 1.3em;
+  vertical-align: middle;  
+}
+.origin {
+  
+}
+.to {
+  font-size: 1.3em;
+  font-weight: bold;  
+}
+
+.meta {
+  text-align: right;
 }
 #main h1 {
   color: #007A99;
-  font-size: 33px;
+  font-size: 1.8em;
   font-weight: bold; 
 }
 
 #main h2 {
     color: #007A99;
     display: block;
-    font-size: 26px;
+    font-size: 1.4em;
     font-weight: lighter;
     line-height: 30px;
 }
@@ -292,8 +321,8 @@ header {
 
 #services article {
     box-shadow: 0 0 7px rgba(129, 126, 126, 0.2);
-    height: 125px;
-    margin: 5px 0;
+    height: 75px;
+    margin: 10px 0;
     padding: 15px;
     width: 440px;
     background-color: #FFFFFF;

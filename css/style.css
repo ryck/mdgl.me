@@ -270,8 +270,8 @@ a:hover { color: #036; }
 @media only screen and (min-width: 875px) {
 /* Styles */
 
-html, body, #container { height: 100%; }
-body > #container { height: auto; min-height: 100%; }
+html, body { height: 100%; }
+body > #main { height: auto; min-height: 80%; }
 footer {
  clear: both;
  position: relative;
@@ -390,6 +390,7 @@ header {
 .to {
   font-size: 1.3em;
   font-weight: bold;  
+  color: #007A99;
 }
 
 .meta {

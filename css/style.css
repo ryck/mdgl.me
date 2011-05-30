@@ -237,7 +237,7 @@ body {
 
 /* Grade-A Mobile Browsers (Opera Mobile, Mobile Safari, Android Chrome)
    consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
-@media screen and (max-width: 874px) {
+@media screen and (max-width: 480px) {
 
 .wrapper {
   width: 90%;
@@ -382,7 +382,8 @@ footer {
   /* Styles */
 }/*/mediaquery*/
 
-@media only screen and (min-width: 875px) {
+
+@media only screen and (min-width: 481px) {
 /* Styles */
 
 html, body { height: 100%; }
@@ -439,10 +440,10 @@ header {
 }
 #navigation li a {
   display: block; 
-  padding: 5px 15px; 
+  padding: 10px; 
   color: #fff; 
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 #navigation li a:hover { 
     background: none repeat scroll 0 0 #FFF;

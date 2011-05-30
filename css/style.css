@@ -520,6 +520,7 @@ header {
 }
 #main h3 {
   color: #007A99;
+  margin-bottom: 0.3em;
 }
 #services {
   margin: 20px 0;
@@ -532,6 +533,7 @@ header {
     padding: 15px;
     width: 45%;
     background-color: #FFFFFF;
+    line-height: 1.3em;
 }
 #audiovisual, #projects {
   float: right;

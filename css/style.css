@@ -248,7 +248,7 @@ body {
   margin-top: 0;
 }
 
-#services article, #welcome article {
+#services article, #welcome article, #memberships article {
     box-shadow: 0 0 7px rgba(129, 126, 126, 0.2);
     margin: 10px 0;
     padding: 15px;
@@ -463,6 +463,9 @@ header {
 #navigation li ul { -webkit-transition: all 1s; -moz-transition: all 0.2s; }
 #navigation li ul li { -webkit-transition: height 0.5s; -moz-transition: all 0.2s; }
 
+.lang-selector {
+  
+}
 #main {
   margin: 64px auto;
   text-shadow: 0 1px 0 #f6f6f6;
@@ -523,11 +526,11 @@ header {
   color: #007A99;
   margin-bottom: 0.3em;
 }
-#services {
+#services, #memberships {
   margin: 20px 0;
 }
 
-#services article {
+#services article, #memberships article {
     box-shadow: 0 0 7px rgba(129, 126, 126, 0.2);
     height: 85px;
     margin: 10px 0;
@@ -542,6 +545,31 @@ header {
 #translation, #i18n {
   float: left;
 }
+
+#atrae {
+float: right;
+}
+
+#atrae p, #atrae h3 {
+opacity: 1;
+}
+
+#atrae {
+    background-image: url(../img/atraet.png);
+    background-position: 460px 15px;
+    background-repeat: no-repeat;
+     -moz-transition: all 0.2s ease; /* FF3.7+ */
+       -o-transition: all 0.2s ease; /* Opera 10.5 */
+  -webkit-transition: all 0.2s ease; /* Saf3.2+, Chrome */
+          transition: all 0.2s ease;
+}
+
+#atrae:hover {
+    background-position: 260px 15px;
+}
+
+
+
 footer {
     background-color: #007A99;
     border-top: 1px solid #FFFFFF;

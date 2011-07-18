@@ -185,7 +185,7 @@ a:hover { color: #036; }
 }
 
 body {
-  background-color: #f6f6f6;
+  background-color: #007A99;
   font-family: 'DroidSansRegular';
 }
 
@@ -386,15 +386,6 @@ footer {
 @media only screen and (min-width: 481px) {
 /* Styles */
 
-html, body { height: 100%; }
-body > #main { height: auto; min-height: 80%; }
-footer {
- clear: both;
- position: relative;
- z-index: 10;
- margin-top: -10em;
-}
-
 
 .wrapper {
   margin: 0 auto;
@@ -467,12 +458,15 @@ header {
   
 }
 #main {
-  margin: 64px auto;
   text-shadow: 0 1px 0 #f6f6f6;
   font-size: 1.3em;
   color: #333;
+  background-color: #f6f6f6;
 }
 
+#welcome {
+  width: 100%;
+}
 #welcome article {
     box-shadow: 0 0 7px rgba(129, 126, 126, 0.2);
     margin: 10px 0;
@@ -483,7 +477,7 @@ header {
 
 #slogan {
   float: left;
-  width: 60%;
+  width: 80%;
 }
 #combinations {
   width: 30%;
